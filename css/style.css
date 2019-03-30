@@ -1,0 +1,85 @@
+@import url(../plugins/vegas/vegas.css);
+
+/************SLIDER******************/
+.vegas-slider {
+	height: 110vh;
+    width:98vw;
+    position: absolute;
+    z-index: -5;
+    top: -80px;
+}
+/****************NAVBAR****************/
+.row
+{
+    max-width: 100%;
+    margin: none;
+    z-index: 3;
+}
+
+.main-nav
+{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 50%;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid blue;
+    border-radius: 15%;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid blue;
+    border-radius: 15%;
+    background-color: white;
+}
+
+
+.main-nav li a
+{
+    
+    color: blue;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+/****************ABOUT ME**************/
+.profession{
+    float: left;
+    position: absolute;
+    width:30%;
+    margin-left: 15%;
+    color:white;
+}
+
+.likes{
+    float: right;
+    position: absolute;
+    width:30%;
+    left: 55%;
+    margin-right: 10%;
+    color:white;
+}
+
+#about{
+    background: #f3c30f;
+    height:40vh;
+    width:98vw;
+    position: absolute;
+    margin-top: -10%;
+    font-size: 1.5rem;
+}
+i{
+   float: left;
+    position: absolute;
+    margin-left: 25%;
+    margin-top:-20px;
+}
