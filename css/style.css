@@ -52,34 +52,89 @@
     font-size: 20px;
 }
 /****************ABOUT ME**************/
-.profession{
-    float: left;
-    position: absolute;
-    width:30%;
-    margin-left: 15%;
-    color:white;
-}
 
-.likes{
-    float: right;
-    position: absolute;
-    width:30%;
-    left: 55%;
-    margin-right: 10%;
-    color:white;
-}
-
-#about{
+.box-container{
     background: #f3c30f;
-    height:40vh;
+    height:70vh;
     width:98vw;
     position: absolute;
     margin-top: -10%;
     font-size: 1.5rem;
+    display:flex;
 }
-i{
-   float: left;
-    position: absolute;
-    margin-left: 25%;
-    margin-top:-20px;
+  .box-1 {
+    width: 24%;
+    height: 50%;
+    padding:10px;
+    margin-top: 5%;
+ }
+
+  .box-2 {
+    width: 24%;
+    height: 50%;
+    padding:10px;
+    margin-top: 5%;
+    padding-left:50px;
+  }
+   .box-3 {
+    width: 24%;
+    height: 50%;
+    padding:10px;
+    margin-top: 5%;
+  }
+   .box-4 {
+    width: 24%;
+    height: 50%;
+    padding:10px;
+    margin-top: 5%;
+    padding-left:50px;
+  }
+  .icon-1{
+      position: absolute;
+      top:50%;
+      left: 5%;
+  }
+  .icon-2{
+      position: absolute;
+      top:50%;
+      left: 30%;
+  }
+  .icon-3{
+      position: absolute;
+      top:50%;
+      left:55%;
+  }
+  .icon-4{
+      position: absolute;
+      top:50%;
+      left: 80%;
+  }
+
+  /********************LAUNCHCODE SECTION***********************/
+
+#launchcode{
+    height: 110vh;
+    width:98vw;
+    position: relative;
+}
+#launch-title{
+    text-align: center;
+    color: black;
+    position: relative;
+    top:50%;
+    font-size: 6rem;
+}
+#launch-desc{
+    text-align: center;
+    color: black;
+    position: relative;
+    top:50%;
+    font-size:25px;
+    padding:30px;
+
+}
+footer{
+    background:black;
+    color:white;
+    text-align: center;
 }
